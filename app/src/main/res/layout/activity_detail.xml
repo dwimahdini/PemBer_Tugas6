@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewNim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nim_label"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_label"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewNim"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email_label"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewNama"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewKategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kategori_label"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewEmail"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/judul_label"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewKategori"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewPembimbing1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pembimbing1_label"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewJudul"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewPembimbing2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pembimbing2_label"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewPembimbing1"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/status_label"
+        android:textSize="18sp"
+        android:layout_below="@id/textViewPembimbing2"
+        android:layout_marginTop="16dp"/>
+    <!-- Add more TextViews for additional fields if needed -->
+
+</RelativeLayout>

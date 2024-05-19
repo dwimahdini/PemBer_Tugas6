@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">testapiclient</string>
+
+
+        <string name="nim_label">NIM:</string>
+        <string name="nama_label">Nama:</string>
+        <string name="email_label">Email:</string>
+        <string name="kategori_label">Kategori:</string>
+        <string name="judul_label">Judul:</string>
+        <string name="pembimbing1_label">Dosen Pembimbing 1:</string>
+        <string name="pembimbing2_label">Dosen Pembimbing 2:</string>
+        <string name="status_label">Status:</string>
+        <!-- Add more string resources for additional fields if needed -->
+
+
+</resources>
